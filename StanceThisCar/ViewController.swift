@@ -13,9 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var constraintOutlet: NSLayoutConstraint!
     @IBOutlet weak var colfImageOutlet: UIImageView!
     
-    var suspens = false
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -53,11 +50,5 @@ class ViewController: UIViewController {
             self.view.layoutIfNeeded()
         }, completion: nil)
     }
-    
-    
-    
-    
-    
-
 }
 
