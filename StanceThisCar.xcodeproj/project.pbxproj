@@ -12,7 +12,7 @@
 		498472741FFFA8C80038AB9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498472721FFFA8C80038AB9E /* Main.storyboard */; };
 		498472761FFFA8C80038AB9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498472751FFFA8C80038AB9E /* Assets.xcassets */; };
 		498472791FFFA8C80038AB9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498472771FFFA8C80038AB9E /* LaunchScreen.storyboard */; };
-		498472811FFFC39D0038AB9E /* ButtonDesighn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498472801FFFC39C0038AB9E /* ButtonDesighn.swift */; };
+		49BC98A62000ED7D00EA98A4 /* MercedesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BC98A52000ED7D00EA98A4 /* MercedesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		498472751FFFA8C80038AB9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		498472781FFFA8C80038AB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4984727A1FFFA8C80038AB9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		498472801FFFC39C0038AB9E /* ButtonDesighn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDesighn.swift; sourceTree = "<group>"; };
+		49BC98A52000ED7D00EA98A4 /* MercedesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercedesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				4984726E1FFFA8C80038AB9E /* AppDelegate.swift */,
-				498472801FFFC39C0038AB9E /* ButtonDesighn.swift */,
 				498472701FFFA8C80038AB9E /* ViewController.swift */,
+				49BC98A52000ED7D00EA98A4 /* MercedesViewController.swift */,
 				498472721FFFA8C80038AB9E /* Main.storyboard */,
 				498472751FFFA8C80038AB9E /* Assets.xcassets */,
 				498472771FFFA8C80038AB9E /* LaunchScreen.storyboard */,
@@ -141,7 +141,7 @@
 			files = (
 				498472711FFFA8C80038AB9E /* ViewController.swift in Sources */,
 				4984726F1FFFA8C80038AB9E /* AppDelegate.swift in Sources */,
-				498472811FFFC39D0038AB9E /* ButtonDesighn.swift in Sources */,
+				49BC98A62000ED7D00EA98A4 /* MercedesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
