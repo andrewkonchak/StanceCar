@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -23,10 +24,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view verifyAmbiguity="off" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6RQ-O0-sg8">
-                                <rect key="frame" x="1" y="150" width="374" height="268"/>
+                                <rect key="frame" x="0.0" y="150" width="375" height="268"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car-159720_960_720" translatesAutoresizingMaskIntoConstraints="NO" id="mUZ-wE-44o">
-                                        <rect key="frame" x="273" y="166" width="55" height="55"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="volkswagen-polo-vector-4027-0" translatesAutoresizingMaskIntoConstraints="NO" id="wcQ-R4-zoN">
+                                        <rect key="frame" x="0.0" y="51" width="375" height="187.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="wcQ-R4-zoN" secondAttribute="height" multiplier="2:1" id="lwj-90-3Z0"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car-wheel-image 2 2" translatesAutoresizingMaskIntoConstraints="NO" id="mUZ-wE-44o">
+                                        <rect key="frame" x="282" y="167" width="55" height="55"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="7W6-Hg-ROs">
                                                 <variation key="heightClass=regular-widthClass=compact" constant="55"/>
@@ -36,8 +43,8 @@
                                             </constraint>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car-159720_960_720" translatesAutoresizingMaskIntoConstraints="NO" id="dpJ-Zm-a0u">
-                                        <rect key="frame" x="37" y="166" width="55" height="55"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car-wheel-image 2 2" translatesAutoresizingMaskIntoConstraints="NO" id="dpJ-Zm-a0u">
+                                        <rect key="frame" x="42" y="167" width="55" height="55"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="CFQ-Ce-CFQ">
                                                 <variation key="heightClass=regular-widthClass=compact" constant="55"/>
@@ -47,36 +54,22 @@
                                             </constraint>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="volkswagen-polo-vector-4027-0" translatesAutoresizingMaskIntoConstraints="NO" id="wcQ-R4-zoN">
-                                        <rect key="frame" x="-4" y="51" width="370" height="185"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="185" id="FLl-kA-FmH"/>
-                                            <constraint firstAttribute="width" constant="327" id="KbX-3h-0Pq">
-                                                <variation key="heightClass=regular-widthClass=compact" constant="370"/>
-                                            </constraint>
-                                        </constraints>
-                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="323" id="CpD-JD-DHB">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="374"/>
-                                    </constraint>
                                     <constraint firstAttribute="bottom" secondItem="dpJ-Zm-a0u" secondAttribute="bottom" constant="55" id="DSt-gt-GC9">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="47"/>
+                                        <variation key="heightClass=regular-widthClass=compact" constant="46"/>
                                     </constraint>
                                     <constraint firstItem="mUZ-wE-44o" firstAttribute="top" secondItem="dpJ-Zm-a0u" secondAttribute="top" id="HyM-XA-IRe"/>
                                     <constraint firstAttribute="height" constant="268" id="Uji-kY-QoL"/>
                                     <constraint firstItem="wcQ-R4-zoN" firstAttribute="top" secondItem="6RQ-O0-sg8" secondAttribute="top" constant="51" id="Vdf-Jy-rbI"/>
-                                    <constraint firstItem="wcQ-R4-zoN" firstAttribute="leading" secondItem="6RQ-O0-sg8" secondAttribute="leading" constant="-4" id="hqs-ed-FUK"/>
-                                    <constraint firstAttribute="trailing" secondItem="wcQ-R4-zoN" secondAttribute="trailing" id="itU-bL-JwT">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="8"/>
-                                    </constraint>
+                                    <constraint firstAttribute="trailing" secondItem="wcQ-R4-zoN" secondAttribute="trailing" id="ea1-dW-OFH"/>
+                                    <constraint firstItem="wcQ-R4-zoN" firstAttribute="leading" secondItem="6RQ-O0-sg8" secondAttribute="leading" id="qzf-dp-UdQ"/>
                                     <constraint firstItem="dpJ-Zm-a0u" firstAttribute="leading" secondItem="6RQ-O0-sg8" secondAttribute="leading" constant="31" id="r9q-TS-Nty">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="37"/>
+                                        <variation key="heightClass=regular-widthClass=compact" constant="42"/>
                                     </constraint>
                                     <constraint firstAttribute="trailing" secondItem="mUZ-wE-44o" secondAttribute="trailing" constant="33" id="teX-aS-r7E">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="46"/>
+                                        <variation key="heightClass=regular-widthClass=compact" constant="38"/>
                                     </constraint>
                                 </constraints>
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
@@ -113,8 +106,8 @@
                                     <action selector="actionTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="71l-48-Lfh"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="STANCER!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecK-gl-aWJ">
-                                <rect key="frame" x="66" y="46" width="223" height="85"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STANCER!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecK-gl-aWJ">
+                                <rect key="frame" x="76" y="37" width="223" height="85"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="53"/>
                                 <color key="textColor" red="0.99845916032791138" green="0.86604350805282593" blue="0.33273893594741821" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -123,9 +116,10 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ecK-gl-aWJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5zt-G3-7SG"/>
-                            <constraint firstItem="6RQ-O0-sg8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="1" id="Kwe-SS-JUl"/>
-                            <constraint firstItem="6RQ-O0-sg8" firstAttribute="top" secondItem="ecK-gl-aWJ" secondAttribute="bottom" constant="23" id="dTu-dx-Hgw"/>
-                            <constraint firstItem="ecK-gl-aWJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="hK3-su-BGD"/>
+                            <constraint firstItem="6RQ-O0-sg8" firstAttribute="top" secondItem="ecK-gl-aWJ" secondAttribute="bottom" constant="28" id="dTu-dx-Hgw"/>
+                            <constraint firstItem="6RQ-O0-sg8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fex-Gs-R3q"/>
+                            <constraint firstItem="ecK-gl-aWJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="17" id="hK3-su-BGD"/>
+                            <constraint firstAttribute="trailing" secondItem="6RQ-O0-sg8" secondAttribute="trailing" id="u7X-BW-C4B"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -135,11 +129,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.399999999999999" y="28.335832083958024"/>
+            <point key="canvasLocation" x="16.875" y="27.464788732394368"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6La-Ce-rKq">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dMp-VM-UQ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="JuW-IZ-jlS" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="idl-65-UZy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -148,13 +143,12 @@
                         <viewLayoutGuide key="safeArea" id="B1w-jh-pIt"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dMp-VM-UQ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="870" y="28"/>
         </scene>
     </scenes>
     <resources>
-        <image name="car-159720_960_720" width="360" height="360"/>
+        <image name="car-wheel-image 2 2" width="400" height="400"/>
         <image name="volkswagen-polo-vector-4027-0" width="1022" height="367"/>
     </resources>
 </document>
