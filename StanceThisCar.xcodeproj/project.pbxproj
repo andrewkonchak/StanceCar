@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		494AAE69200A675500FE6E7D /* TransporterBusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494AAE68200A675500FE6E7D /* TransporterBusViewController.swift */; };
 		4984726F1FFFA8C80038AB9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4984726E1FFFA8C80038AB9E /* AppDelegate.swift */; };
 		498472711FFFA8C80038AB9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498472701FFFA8C80038AB9E /* ViewController.swift */; };
 		498472741FFFA8C80038AB9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498472721FFFA8C80038AB9E /* Main.storyboard */; };
 		498472761FFFA8C80038AB9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498472751FFFA8C80038AB9E /* Assets.xcassets */; };
 		498472791FFFA8C80038AB9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498472771FFFA8C80038AB9E /* LaunchScreen.storyboard */; };
-		49BC98A62000ED7D00EA98A4 /* MercedesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BC98A52000ED7D00EA98A4 /* MercedesViewController.swift */; };
 		49D199E82008E824006D954A /* PoloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D199E72008E824006D954A /* PoloViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		494AAE68200A675500FE6E7D /* TransporterBusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransporterBusViewController.swift; sourceTree = "<group>"; };
 		4984726B1FFFA8C80038AB9E /* StanceThisCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanceThisCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4984726E1FFFA8C80038AB9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		498472701FFFA8C80038AB9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,7 +25,6 @@
 		498472751FFFA8C80038AB9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		498472781FFFA8C80038AB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4984727A1FFFA8C80038AB9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49BC98A52000ED7D00EA98A4 /* MercedesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercedesViewController.swift; sourceTree = "<group>"; };
 		49D199E72008E824006D954A /* PoloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoloViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,8 +60,8 @@
 			children = (
 				4984726E1FFFA8C80038AB9E /* AppDelegate.swift */,
 				498472701FFFA8C80038AB9E /* ViewController.swift */,
+				494AAE68200A675500FE6E7D /* TransporterBusViewController.swift */,
 				49D199E72008E824006D954A /* PoloViewController.swift */,
-				49BC98A52000ED7D00EA98A4 /* MercedesViewController.swift */,
 				498472721FFFA8C80038AB9E /* Main.storyboard */,
 				498472751FFFA8C80038AB9E /* Assets.xcassets */,
 				498472771FFFA8C80038AB9E /* LaunchScreen.storyboard */,
@@ -144,8 +144,8 @@
 			files = (
 				49D199E82008E824006D954A /* PoloViewController.swift in Sources */,
 				498472711FFFA8C80038AB9E /* ViewController.swift in Sources */,
+				494AAE69200A675500FE6E7D /* TransporterBusViewController.swift in Sources */,
 				4984726F1FFFA8C80038AB9E /* AppDelegate.swift in Sources */,
-				49BC98A62000ED7D00EA98A4 /* MercedesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

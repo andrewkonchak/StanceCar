@@ -9,8 +9,10 @@
 import UIKit
 
 class PoloViewController: UIViewController {
-
     
+    @IBOutlet weak var rearWheelOutlet: UIImageView!
+    @IBOutlet weak var frontWheelOutlet: UIImageView!
+    @IBOutlet weak var rimsButtonOutlet: UIButton!
     @IBOutlet weak var xButtonOutlet: UIButton!
     @IBOutlet weak var aButtonOutlet: UIButton!
     @IBOutlet weak var bButtonOutlet: UIButton!
@@ -18,11 +20,9 @@ class PoloViewController: UIViewController {
     @IBOutlet weak var vwPoloImage: UIImageView!
     @IBOutlet weak var vwPoloConstraint: NSLayoutConstraint!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         roundControlButtons()
-
     }
     
     func roundControlButtons() {
@@ -41,8 +41,11 @@ class PoloViewController: UIViewController {
         yButtonOutlet.layer.cornerRadius = 24.5
         yButtonOutlet.layer.borderWidth = 1
         yButtonOutlet.layer.borderColor = #colorLiteral(red: 0.9686274529, green: 0.78039217, blue: 0.3450980484, alpha: 1)
+        
+        rimsButtonOutlet.layer.cornerRadius = 12
+        rimsButtonOutlet.layer.borderWidth = 1
+        rimsButtonOutlet.layer.borderColor = #colorLiteral(red: 0.868650496, green: 0.7571105361, blue: 0.286236912, alpha: 1)
     }
-   
     
     @IBAction func yAction(_ sender: UIButton) {
         vwPoloConstraint.constant = 271
